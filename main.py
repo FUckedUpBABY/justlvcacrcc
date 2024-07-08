@@ -39,7 +39,9 @@ async def approve(Client, message):
                     formatted_message = (
 
                         f"<b> 𝗡𝗠𝗕 𝗔𝗽𝗽𝗿𝗼𝘃𝗲𝗱 ✅ </code>\n\n\n"
-                        
+
+                        f"<b>#BIN{data.get('number', {}).get('iin', '')}</b>\n\n"
+
                         f"<b>𝗖𝗮𝗿𝗱 ↬ </b><code>{card_info}</code>\n"
                         f"<b>𝗚𝗮𝘁𝗲𝘄𝗮𝘆 ↬ Braintree Auth (200) </b>\n"
                         f"<b>𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 ↬ Approved</b>\n\n"
