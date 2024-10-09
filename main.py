@@ -48,7 +48,7 @@ async def approve(Client, message):
                         f"<b>𝗜𝗻𝗳𝗼 ↬ {data.get('scheme', '')} - {data.get('type', '')}</b>\n"
                         f"<b>𝗜𝘀𝘀𝘂𝗲𝗿 ↬ {data.get('bank', {}).get('name', '')}</b>\n"
                         f"<b>𝗖𝗼𝘂𝗻𝘁𝗿𝘆 ↬ {data.get('country', {}).get('name', '')} {data.get('country', {}).get('emoji', '')}</b>\n\n"
-                        f"<b>𝗝𝗼𝗶𝗻 𝗨𝘀 ↬ @NoMoreBins </b>\n"
+                        f"<b>𝗝𝗼𝗶𝗻 𝗨𝘀 ↬ @EarningMachineBd ☘️ </b>\n"
                         
                     )
 
